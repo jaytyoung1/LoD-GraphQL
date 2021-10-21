@@ -10,4 +10,9 @@
     <Folder Include="Schema\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="4.6.1" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+  </ItemGroup>
+
 </Project>
