@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{182D30BD-F497-45AA-8CFD-718270FA0DA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{182D30BD-F497-45AA-8CFD-718270FA0DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyTeam", "FantasyTeam\FantasyTeam.csproj", "{A8675674-9C4B-4BF5-9DE5-690B2007FB16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{182D30BD-F497-45AA-8CFD-718270FA0DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{182D30BD-F497-45AA-8CFD-718270FA0DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{182D30BD-F497-45AA-8CFD-718270FA0DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8675674-9C4B-4BF5-9DE5-690B2007FB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8675674-9C4B-4BF5-9DE5-690B2007FB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8675674-9C4B-4BF5-9DE5-690B2007FB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8675674-9C4B-4BF5-9DE5-690B2007FB16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
