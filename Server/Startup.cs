@@ -26,15 +26,20 @@ namespace Server
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseRouting();
+            // Whenever our endpoint is hit in the browser we'll automatically surface the index.html
+            app.UseDefaultFiles();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            app.UseStaticFiles();
+
+            //app.UseRouting();
+
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapGet("/", async context =>
+            //    {
+            //        await context.Response.WriteAsync("Hello World!");
+            //    });
+            //});
         }
     }
 }
