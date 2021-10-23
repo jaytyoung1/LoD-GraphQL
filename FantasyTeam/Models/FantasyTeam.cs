@@ -5,7 +5,7 @@ using System.Text;
 namespace FantasyTeam.Models
 {
     // Represents an ESPN Fantasy Football fantasy team.
-    public class FantasyTeam
+    public class Team
     {
         // Overall team rank.
         public int PlayoffSeed { get; set; }
@@ -23,7 +23,7 @@ namespace FantasyTeam.Models
         public Record Record { get; set; }
 
         // Constructor
-        public FantasyTeam(int playoffSeed, string location, string nickname, string logo, Record record)
+        public Team(int playoffSeed, string location, string nickname, string logo, Record record)
         {
             PlayoffSeed = playoffSeed;
             Location = location;
